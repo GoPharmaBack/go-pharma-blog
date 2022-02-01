@@ -7,14 +7,14 @@ module.exports = {
     // You can overwrite values here that are used for the SEO component
     // You can also add new values here to query them like usual
     // See all options: https://github.com/LekoArts/gatsby-themes/blob/main/themes/gatsby-theme-minimal-blog/gatsby-config.js
-    siteTitle: `Minimal Blog`,
-    siteTitleAlt: `Minimal Blog - Gatsby Theme`,
-    siteHeadline: `Minimal Blog - Gatsby Theme from @lekoarts`,
-    siteUrl: `https://minimal-blog.lekoarts.de`,
-    siteDescription: `Typography driven, feature-rich blogging theme with minimal aesthetics. Includes tags/categories support and extensive features for code blocks such as live preview, line numbers, and line highlighting.`,
-    siteLanguage: `en`,
+    siteTitle: `Go Pharma Blog`,
+    siteTitleAlt: `Go Pharma Blog`,
+    siteHeadline: `Go Pharma Blog`,
+    siteUrl: `https://blog.go-pharma.mx/`,
+    siteDescription: `Somos una agencia de CONSULTORÍA, MKT & MEDIA especializada en el mercado PHARMA y el sectorSALUD. Desarrollamos estrategias integradas desde market research hasta la ejecución de la planeación, siempre enfocados a RESULTADOS`,
+    siteLanguage: `es`,
     siteImage: `/banner.jpg`,
-    author: `@lekoarts_de`,
+    author: `@perrodimensional`,
   },
   plugins: [
     {
@@ -27,18 +27,17 @@ module.exports = {
             slug: `/blog`,
           },
           {
-            title: `About`,
-            slug: `/about`,
-          },
-        ],
+            title: `Nosotros`,
+            slug: `/nosotros`,
+          },],
         externalLinks: [
           {
-            name: `Twitter`,
-            url: `https://twitter.com/lekoarts_de`,
+            name: `Linkedin`,
+            url: `https://www.linkedin.com/company/marketing-and-media-go-pharma/`,
           },
           {
             name: `Homepage`,
-            url: `https://www.lekoarts.de?utm_source=minimal-blog&utm_medium=Starter`,
+            url: `https://go-pharma.mx/`,
           },
         ],
       },
@@ -71,7 +70,7 @@ module.exports = {
         background_color: `#fff`,
         // This will impact how browsers show your PWA/website
         // https://css-tricks.com/meta-theme-color-and-trickery/
-        // theme_color: `#6B46C1`,
+        theme_color: `#6B46C1`,
         display: `standalone`,
         icons: [
           {
